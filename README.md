@@ -60,6 +60,8 @@
 
 ### Installation
 
+#### Quick Start (with Docker)
+
 ```bash
 # Clone the primordial soup
 git clone https://github.com/yourusername/gcombinatr.git
@@ -76,6 +78,14 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env with your GitHub tokens (multiple recommended for rate limiting)
 ```
+
+#### Docker-less Installation
+
+For a complete installation without Docker, see [INSTALL.md](INSTALL.md) for detailed instructions on:
+- Installing all required services (Redis, Neo4j, MongoDB, InfluxDB)
+- Platform-specific setup (Linux, macOS, Windows)
+- Service management scripts
+- Troubleshooting guide
 
 ### Launch Your First Ecosystem
 
